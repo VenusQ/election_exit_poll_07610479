@@ -1,3 +1,4 @@
+import 'package:election_exit_poll_07610479/pages/resultpage.dart';
 import 'package:flutter/material.dart';
 
 import 'pages/mainpage.dart';
@@ -39,6 +40,7 @@ class MyApp extends StatelessWidget {
       //home: LoginPage(),
       routes: {
         Mainpage.routeName : (context) => const Mainpage(),
+        Resultpage.routeName : (context) => const Resultpage(),
       },
       initialRoute: Mainpage.routeName,
     );
